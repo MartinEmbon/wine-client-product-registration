@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="./assets/styles/clientes.css" rel="stylesheet" />
+
+    <title>Hiring Coders Challenge #2 - Ecommerce on Local Storage</title>
+  </head>
+  <body>
+  	
+	<div class="container">
+	
+		<form id="Form1">
+			<div class="logo-shop"><img src="./assets/images/Logo-Wine.jpg" alt="logoWine"></div>
+			<h3>DADOS CADASTRAIS</h3>
+			<input type="text" id="nome" placeholder="Nome completo">
+			<input type="text" id="cpf" placeholder="CPF">
+            <input type="email" id="email" placeholder="Email">			
+			<input type="text" id="tel"placeholder="Telefone">			
+		
+			<div class="btn-box">
+				<button type="button"><a href="index.html">Voltar</a></button>
+				<button type="button" id="Next1">Próximo</button>
+			</div>		
+		</form>
+
+		<form id="Form2">
+			<div class="logo-shop"><img src="./assets/images/Logo-Wine.jpg" alt="logoWine"></div>
+            <h3>ENDERECO DE ENTREGA</h3>
+			<input type="search" id="cep" name="cep" placeholder="CEP">
+			<input type="text" id="endereco" placeholder="Rua">
+			<input type="text" id="num" placeholder="Num / Complemento">			
+			<input type="text" name="bairro" id="bairro" placeholder="Bairro">
+			<input type="text" id="cidade" placeholder="Cidade">
+			<input type="text" id="uf" placeholder="Estado">
+			
+		
+			<div class="btn-box">
+				<button type="button"id="Back1">Anterior</button>
+				<button id="submit" type="submit">Cadastrar</button>
+				<button type="button" id="readProduct">Ver LS na Consola</button>				
+			</div>		
+		</form>
+
+	</div>
+	
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous"></script>
+	<script src="./assets/javascript/app.js"></script>    
+	<script src="./assets/javascript/clientels.js"></script>    	
+	<script src="./assets/javascript/cep.js"></script>	
+	
+  </body>
+</html>
