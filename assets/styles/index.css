@@ -7,14 +7,14 @@
 body {
    background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.3)),url("../images/abstract-blue-background-6344024.jpg");
     background-size:cover;
-   margin-top:30px;
+      margin-top:30px;
     background-repeat:no-repeat;
 
 }
 
 .container {
    width:360px;
-   height: 100vh;
+   height: auto;
    margin:8% auto;
    background:white;
    border-radius: 5px;
@@ -135,7 +135,8 @@ button a:hover{
 
 footer {
    margin:auto;
-   margin-top:5rem;
+   margin-top:4rem;
+   margin-bottom: 1rem;
    font-size:12px;
    text-align:center;
    color:black;

@@ -8,6 +8,7 @@ btnSend.onclick=function() {
     const client = {
         nome: document.getElementById("nome").value,
         cpf: document.getElementById("cpf").value,
+        nacionalidade: document.getElementById("nacionalidade").value,        
         email: document.getElementById("email").value,
         tel: document.getElementById("tel").value,
         cep: document.getElementById("cep").value,   
