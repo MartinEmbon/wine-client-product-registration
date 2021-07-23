@@ -3,7 +3,6 @@ const btnRead = document.getElementById("readProduct")
 
 const getLocalStorage = () => JSON.parse(localStorage.getItem('client')) ?? []
 
-
 const saveClient = ()=>{
     let client = {
         nome: document.getElementById("nome").value,
@@ -26,7 +25,6 @@ const createClient = (client) => {
     dbClient.push(client)
     localStorage.setItem("client",JSON.stringify(dbClient))
 }
-
 
 const readClient = () => getLocalStorage()
 
